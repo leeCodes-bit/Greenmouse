@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-scrolled, #header.header-pages {
   height: 60px;
-  padding: 10px 50px;
+  padding: 10px 0px;
 }
 
 #header .logo h1 {
