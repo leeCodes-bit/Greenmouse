@@ -476,6 +476,10 @@ nav ul li a {
   width: 50%;
 }
 
+.aboutt{
+  margin-top: -50px;
+}
+
 .aboutt-container h4 {
   font-size: 40px !important;
   color: #191847 !important;
