@@ -105,7 +105,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 
 #header {
-  height: 80px;
+  height: 90px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled, #header.header-pages {
-  height: 60px;
+  height: 80px;
   padding: 10px 0px;
 }
 
@@ -470,10 +470,22 @@ nav ul li a {
 .section-header p {
   text-align: center;
   margin: auto;
-  font-size: 15px;
+  font-size: 18px;
   padding-bottom: 60px;
   color: #556877;
   width: 50%;
+}
+
+.aboutt-container h4 {
+  font-size: 40px !important;
+  color: #191847 !important;
+  font-weight: bold;
+  position: relative;
+}
+
+.aboutt-container p {
+  font-size: 18px;
+  color: #191847 !important;
 }
 
 /* Section with background
