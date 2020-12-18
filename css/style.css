@@ -674,8 +674,8 @@ nav ul li a {
   overflow: hidden;
   border-radius: 10px;
   margin: 0 10px 40px 10px;
-  background: #fff;
-  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  /* background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1); */
   transition: all 0.3s ease-in-out;
 }
 
@@ -1164,7 +1164,7 @@ nav ul li a {
 
 #contact {
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-  padding: 60px 0;
+  padding: 150px 0;
   overflow: hidden;
 }
 
@@ -1185,7 +1185,7 @@ nav ul li a {
 }
 
 #contact .contact-about p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   font-family: "Montserrat", sans-serif;
   color: #888;
@@ -1230,7 +1230,8 @@ nav ul li a {
 #contact .info p {
   padding: 0 0 10px 36px;
   line-height: 28px;
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 #contact .form #sendmessage {
@@ -1268,7 +1269,9 @@ nav ul li a {
 #contact .form input, #contact .form textarea {
   border-radius: 0;
   box-shadow: none;
-  font-size: 14px;
+  font-size: 16px;
+  border: 1px solid #191847;
+  padding: 20px;
 }
 
 #contact .form button[type="submit"] {
