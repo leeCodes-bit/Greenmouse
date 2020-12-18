@@ -144,6 +144,19 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 60px;
 }
 
+.navbar {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: .5rem 3.5rem !important;
+}
+
 nav ul li {
   padding-right: 20px;
 }
@@ -246,6 +259,11 @@ nav ul li a {
   background: #fff;
   border-color: #558B95;
   color: #558B95;
+}
+
+.about-info h2{
+  font-size: 80px !important;
+  margin-top: 70px;
 }
 
 /*--------------------------------------------------------------
@@ -546,7 +564,7 @@ nav ul li a {
   margin-bottom: 10px;
 }
 
-.btn-link, .card-body, .card-body p{
+.btn-link, .card-body, .card-body p {
   color: #fff !important;
 }
 
