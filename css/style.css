@@ -476,7 +476,7 @@ nav ul li a {
   width: 50%;
 }
 
-.aboutt{
+.aboutt {
   margin-top: -50px;
 }
 
@@ -490,6 +490,64 @@ nav ul li a {
 .aboutt-container p {
   font-size: 18px;
   color: #191847 !important;
+}
+
+/* terms */
+
+#terms {
+  margin-top: 130px;
+}
+
+#terms h3 {
+  color: #191847 !important;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#terms h5 {
+  color: #191847 !important;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#terms h6 {
+  color: #191847 !important;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#terms p {
+  font-size: 18px;
+  color: #191847 !important;
+  text-align: justify;
+}
+
+#terms ol li {
+  font-size: 16px;
+  color: #191847 !important;
+  text-align: justify;
+}
+
+/* accordion
+-------------------------------- */
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #3E4095;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: .25rem;
+  margin-bottom: 10px;
+}
+
+.btn-link, .card-body, .card-body p{
+  color: #fff !important;
 }
 
 /* Section with background
@@ -654,7 +712,7 @@ nav ul li a {
 }
 
 #services .description {
-  font-size: 14px;
+  font-size: 16px;
   margin-left: 40px;
   line-height: 24px;
   margin-bottom: 0;
