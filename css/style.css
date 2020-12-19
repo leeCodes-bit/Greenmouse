@@ -261,7 +261,7 @@ nav ul li a {
   color: #558B95;
 }
 
-.about-info h2{
+.about-info h2 {
   font-size: 80px !important;
   margin-top: 70px;
 }
@@ -1437,6 +1437,11 @@ nav ul li a {
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
+}
+
+#footer .copyright .copy {
+  display: flex;
+  justify-content: space-between;
 }
 
 #footer .credits {
