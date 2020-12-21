@@ -1306,6 +1306,10 @@ nav ul li a {
   cursor: pointer;
 }
 
+.woww {
+  margin-left: 40px;
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1442,6 +1446,7 @@ nav ul li a {
 #footer .copyright .copy {
   display: flex;
   justify-content: space-between;
+  padding: 0 15px;
 }
 
 #footer .credits {
@@ -1470,7 +1475,7 @@ nav ul li a {
 
 @media (max-width: 991px) {
   #header {
-    height: 60px;
+    height: 80px;
     padding: 10px 0;
   }
   #header .logo h1 {
@@ -1493,6 +1498,9 @@ nav ul li a {
   }
   #why-us .card {
     margin: 0;
+  }
+  .woww {
+    margin-left: 0px;
   }
 }
 
